@@ -86,13 +86,396 @@
 
 
         <div class="section-title">
-            <h2> Result  </h2>
+            <h2>Result  </h2>
             
-        </div>
+          </div>
 
-       <p> TBD </p>
+     
+<h3>Instructions</h3>
 
-    </section>
+<p><strong style="color:blue">For training the model, use only the training set. Do not use validation and test sets.</strong></p>
+
+<p>
+<strong style="color:blue">The organizers request that each team upload their final or updated results to the competition website by 5th August 2024. Teams are allowed up to 10 submissions in total. For each submission, teams must provide the transcriptions of their developed solutions against the provided test sets, along with a brief description of their solution. Submitting the trained model and code is optional but highly encouraged.</strong>
+</p>
+
+<p><strong style="color:blue">The team member can upload the results upto 10 times</strong></p>
+
+<p><strong style="color:red">Please note that all submissions will be verified by the organizers, and the results will only reflect at the end of the day.</strong></p>
+
+<br></br>
+
+<h5 style="color: #00008B;"><b> Submission for Task: Cropped Word Image Recognition</b></h5>
+<p>
+  <h6><strong>  Submission of Brief Description of Algorithm </strong> </h6>
+  <ul>
+  <li> Write a maximum of one page description of your proposed method to solve Cropped Word Recognition tasks and name the file as (description.doc/description.pdf/description.txt/description.latex).</li>  
+  </ul> 
+
+  <h6><strong> Submission of Results </strong> </h6>
+  <ul>
+  <li>The output should be saved as ‘script name_result.txt’ (e.g., hindi_result.txt) which contains names of test word images and corresponding predictions separated by a tab in each line.</li>
+  <li> For multiple languages, create a folder containing all “script name_result.txt” files corresponding to the languages to be considered, create a zip file, and upload it. </li>  
+  </ul>
+
+  <h6><strong> Submission of Trained Model </strong> </h6>
+  <ul>
+  <li> Create a zip file of the trained model and upload </li>
+  </ul>
+  
+  <h6><strong> Submission of Inference Code </strong> </h6>
+  <ul>
+  <li>Inference code, requirement.txt with software packages required to run the code, and ReadMe file with instructions for running the code.  Make a zip file and upload it.</li>
+  </ul>
+</p>
+
+
+
+<form action="https://ilocr.iiit.ac.in/bhashini-iiith/icdara/" method="post"  enctype="multipart/form-data">
+  
+   <div class="row gy-4">
+
+    <div class="col-md-6">
+      <p> <strong> Select Team Name </strong> </p>
+
+    <select class="selectpicker form-control" name="category" id="tshit" >
+      <option value="">Choose Your Team Name ...</option>
+      
+      <option value="Chetona">Chetona</option>
+      <option value="kanyarasi">kanyarasi</option>
+      <option value="Astro">Astro</option>
+      <option value="SANKALP">SANKALP</option>
+      <option value="Invisible">Invisible</option>
+      <option value="level_solo">level_solo</option>
+      <option value="LearningPath">LearningPath</option>
+      <option value="Ravegers">Ravegers</option>
+      <option value="PRaShAnk">PRaShAnk</option>
+      <option value="Asteria">Asteria</option>
+      <option value="Image Insights">Image Insights</option>
+      <option value="Lorem Ipsum">Lorem Ipsum</option>
+      <option value="yoyo">yoyo</option>
+      <option value="Percepticons">Percepticons</option>
+      <option value="SAIL">SAIL</option>
+      <option value="Keval">Keval</option>
+      <option value="Destine Dusters">Destine Dusters</option>
+      <option value="Fire 🔥 group">Fire 🔥 group</option>
+      <option value="BrainStormers">BrainStormers</option>
+      <option value="Toofan">Toofan</option>
+      <option value="SriLanka_AI">SriLanka_AI</option>
+      <option value="IIC">IIC</option>
+      <option value="INTIME">INTIME</option>
+      <option value="Intelliod">Intelliod</option>
+      <option value="RoVeR-IND">RoVeR-IND</option>
+      <option value="Code Champions">Code Champions</option>
+      <option value="Transcendence">Transcendence</option>
+      <option value="Allang">Allang</option>
+      <option value="Native Vision">Native Vision</option>
+      <option value="Let's Grow Young">Let's Grow Young</option>
+      <option value="Scene Seekers">Scene Seekers</option>
+      <option value="Indic Titans">Indic Titans</option>
+      <option value="MVu">MVu</option>
+      <option value="MLBANGERS">MLBANGERS</option>
+      <option value="IndicVisionaries">IndicVisionaries</option>
+      <option value="Solo Synapse">Solo Synapse</option>
+      <option value="Marauder">Marauder</option>
+      <option value="The Recognizers">The Recognizers</option>
+      <option value="Nexus">Nexus</option>
+      <option value="HeadSctracher">HeadSctracher</option>
+      <option value="Madvar">Madvar</option>
+      <option value="KSK">KSK</option>
+      <option value="back_benchers_24">back_benchers_24</option>
+      <option value="NIPU">NIPU</option>
+      <option value="Data Devotee">Data Devotee</option>
+      
+  </select> 
+
+</div>
+
+</div>
+
+&nbsp;
+
+<div class="row gy-4">
+
+    <div class="col-md-6">
+<p> <strong> Upload Result (Required)</strong> </p>
+      <input type="file" name="result" class="form-control" placeholder="Name" required>
+    </div>
+
+  </div>
+
+
+&nbsp;
+
+  <div class="row gy-4">
+
+
+    <div class="col-md-6">
+      <p> <strong> Upload Inference Code (Optional)</strong> </p>
+            <input type="file" name="inference" class="form-control" placeholder="Name" >
+          </div>
+</div>
+
+
+&nbsp;
+
+<div class="row gy-4">
+
+          <div class="col-md-6">
+            <p> <strong> Upload Trained Model (Optional)</strong> </p>
+                  <input type="file" name="model" class="form-control" placeholder="Name" >
+                </div>
+</div>
+
+
+&nbsp;
+
+<div class="row gy-4">
+
+                <div class="col-md-6">
+                  <p> <strong> Upload Brief Description of Algorithm (Required)</strong> </p>
+                        <input type="file" name="algorithm" class="form-control" placeholder="Name" required>
+                      </div>
+
+
+  </div>
+
+  &nbsp;
+
+
+<div class="row gy-4">
+
+  <div class="col-md-6">
+
+    <p> 
+      <strong>  Use any Pretrained Model </strong> 
+    </p>
+
+    <p>
+      <input type="radio" name="sub-opt" value="no" id="sub_no" required onchange="modelSubDiv(this)" > <label for="sub_no">No</label>
+
+      <input type="radio" name="sub-opt" value="yes" id="sub_yes" onchange="modelSubDiv(this)" > <label for="sub_yes">Yes</label>
+
+    </p> 
+
+      
+  <div id="modeltext" style="display: none">
+       
+    <p style="margin-top: 1.6rem;"> Please write details in two-three lines  </p> <br> 
+              
+    <textarea class="form-control" id="model" name="modeltext" type="text"> </textarea>
+  
+</div>
+
+  </div>
+</div>
+
+&nbsp;
+
+
+<div class="row gy-4">
+
+  <div class="col-md-6">
+
+    <p> 
+      <strong>  Use any Additional Training Dataset</strong> 
+</p>
+<p>
+      <input type="radio" name="sub-opt" value="no" id="sub_no" required onchange="datasetSubDiv(this)" > <label for="sub_no">No</label>
+
+      <input type="radio" name="sub-opt" value="yes" id="sub_yes" onchange="datasetSubDiv(this)" > <label for="sub_yes">Yes</label>
+
+    </p> 
+
+      
+  <div id="dataset" style="display: none">
+       
+    <p style="margin-top: 1.6rem;">Please write details in two-three lines  </p> <br> 
+              
+    <textarea class="form-control" id="dataset" name="dataset" type="text"> </textarea>
+  
+</div>
+
+  </div>
+</div>
+
+&nbsp;
+
+
+
+
+<div class="row gy-4">
+
+  <div class="col-md-6">
+
+    <p> 
+      <strong>   Use any Synthetic data for Training </strong> 
+</p>
+<p>
+      <input type="radio" name="sub-opt" value="no" id="sub_no" required onchange="trainingSubDiv(this)" > <label for="sub_no">No</label>
+
+      <input type="radio" name="sub-opt" value="yes" id="sub_yes" onchange="trainingSubDiv(this)" > <label for="sub_yes">Yes</label>
+
+    </p> 
+
+      
+  <div id="training" style="display: none">
+       
+    <p style="margin-top: 1.6rem;">Please write details in two-three lines  </p> <br> 
+              
+    <textarea class="form-control" id="training" name="training" type="text"> </textarea>
+  
+</div>
+
+  </div>
+</div>
+
+&nbsp;
+
+
+
+<div class="row gy-4">
+
+  <div class="col-md-6">
+
+    <p> 
+      <strong>  Use any Pre-processing Step to Clean the Training Dataset</strong> 
+</p>
+
+<p>
+      <input type="radio" name="sub-opt" value="no" id="sub_no" required onchange="preproSubDiv(this)" > <label for="sub_no">No</label>
+
+      <input type="radio" name="sub-opt" value="yes" id="sub_yes" onchange="preproSubDiv(this)" > <label for="sub_yes">Yes</label>
+
+    </p> 
+
+      
+  <div id="prepro" style="display: none">
+       
+    <p style="margin-top: 1.6rem;">Please write details in four-five lines </p> <br> 
+              
+    <textarea class="form-control" id="prepro" name="prepro" type="text"> </textarea>
+  
+</div>
+
+  </div>
+</div>
+
+&nbsp;
+
+
+
+
+<div class="row gy-4">
+
+  <div class="col-md-6">
+
+    <p> 
+      <strong>  Use any Post OCR Error Correction Technique to improve OCR accuracy  </strong> 
+</p>
+<p>
+      <input type="radio" name="sub-opt" value="no" id="sub_no" required onchange="ocrSubDiv(this)" > <label for="sub_no">No</label>
+
+      <input type="radio" name="sub-opt" value="yes" id="sub_yes" onchange="ocrSubDiv(this)" > <label for="sub_yes">Yes</label>
+
+    </p> 
+
+      
+  <div id="ocr" style="display: none">
+       
+    <p style="margin-top: 1.6rem;">Please write details in four-ten lines </p> <br> 
+              
+    <textarea class="form-control" id="ocr" name="pospro" type="text"> </textarea>
+
+  
+</div>
+
+  </div>
+</div>
+
+&nbsp;
+
+
+
+  <div class="row gy-4">
+
+    <div class="col-md-6">
+                <input type="submit" name="submit" class="form-control">
+          </div>
+
+          
+</div>
+
+
+</form>
+
+
+      </div>
+    </section> 
+
+
+    <script>
+      function modelSubDiv(elem) {
+        var mode = elem.value;
+        if (mode == 'no') {
+          document.getElementById("modeltext").style.display = 'none';
+          document.getElementById("modeltext").required = false;
+        } else if (mode == 'yes') {
+          document.getElementById("modeltext").style.display = 'block';
+          document.getElementById("modeltext").required = true;
+        }
+      }
+
+
+      function datasetSubDiv(elem) {
+        var mode = elem.value;
+        if (mode == 'no') {
+          document.getElementById("dataset").style.display = 'none';
+          document.getElementById("dataset").required = false;
+        } else if (mode == 'yes') {
+          document.getElementById("dataset").style.display = 'block';
+          document.getElementById("dataset").required = true;
+        }
+      }
+
+
+      function trainingSubDiv(elem) {
+        var mode = elem.value;
+        if (mode == 'no') {
+          document.getElementById("training").style.display = 'none';
+          document.getElementById("training").required = false;
+        } else if (mode == 'yes') {
+          document.getElementById("training").style.display = 'block';
+          document.getElementById("training").required = true;
+        }
+      }
+
+      
+      function preproSubDiv(elem) {
+        var mode = elem.value;
+        if (mode == 'no') {
+          document.getElementById("prepro").style.display = 'none';
+          document.getElementById("prepro").required = false;
+        } else if (mode == 'yes') {
+          document.getElementById("prepro").style.display = 'block';
+          document.getElementById("prepro").required = true;
+        }
+      }
+
+
+      function ocrSubDiv(elem) {
+        var mode = elem.value;
+        if (mode == 'no') {
+          document.getElementById("ocr").style.display = 'none';
+          document.getElementById("ocr").required = false;
+        } else if (mode == 'yes') {
+          document.getElementById("ocr").style.display = 'block';
+          document.getElementById("ocr").required = true;
+        }
+      }
+    </script>
+
+ 
 
 
   </main><!-- End #main -->
